@@ -1,0 +1,400 @@
+@media (max-width: 1300px) {
+  /* ---------------------------nav------------------------- */
+
+  nav .container {
+    padding-block: 15px;
+    width: 85%;
+  }
+  nav .container .icon {
+    width: 50px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+  }
+  nav .container .icon span {
+    width: 60%;
+    height: 2px;
+    background-color: white;
+  }
+  nav .container .links {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translatex(-50%);
+    z-index: 100;
+    width: 85%;
+    padding: 0px;
+    border-radius: 10px;
+    background-color: black;
+    height: 0;
+    overflow: hidden;
+    transition-duration: 0.5s;
+  }
+  nav .container .icon:focus + .links {
+    height: 320px;
+    padding: 15px;
+  }
+  nav .container .links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  nav .container .links ul > li {
+    margin-bottom: 20px;
+  }
+  nav .container a.logo {
+    font-size: 30px;
+  }
+  /* ---------------------------home------------------------- */
+  #HOME .container .content {
+    width: 100%;
+    left: 0;
+  }
+  #HOME .container .content > * {
+    margin-bottom: 15px;
+  }
+  #HOME .container .content button {
+    padding: 10px 15px;
+  }
+  #HOME .container .content h1 {
+    font-size: 30px;
+  }
+  #HOME .container .content h2 {
+    font-size: 25px;
+  }
+  /* ---------------------------About------------------------- */
+  #ABOUT .container .part1,
+  #ABOUT .container .part2 {
+    width: 100%;
+  }
+  #ABOUT .container .part1 h2 {
+    font-size: 30px;
+  }
+  /* ---------------------------SERVICES------------------------- */
+  #SERVICES .container .content {
+    width: 100%;
+  }
+  #SERVICES .container .content .box {
+    flex-direction: column-reverse;
+  }
+  #SERVICES .container .content .box .text,
+  #SERVICES .container .content .box .item {
+    width: 100%;
+  }
+  #SERVICES .container .content .box .text h2 {
+    font-size: 20px;
+  }
+  #SERVICES .container .content .box .item {
+    margin-bottom: 20px;
+  }
+  #SERVICES .container .content .box .item .icon {
+    width: 100px;
+    height: 100px;
+  }
+  /* ---------------------------CLIENTS------------------------- */
+  #CLIENTS .container .content :first-child {
+    margin-bottom: 20px;
+  }
+  #CLIENTS .container .content .box {
+    width: 100%;
+  }
+  /* ---------------------------TRAINERS------------------------- */
+  #TRAINERS .container .content .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* ---------------------------GALLERY------------------------- */
+  #GALLERY .container .content {
+    display: block;
+  }
+  #GALLERY .container .content .box {
+    min-height: 350px;
+    min-width: 250px;
+  }
+  /* ---------------------------Contact Us------------------------- */
+  #CONTACT .container .content .box {
+    width: 100%;
+  }
+  /* ---------------------------Contact Us form------------------------- */
+  #CONTACT .container .contact form .part .field {
+    width: 100%;
+  }
+  #CONTACT .container .contact form input,
+  #CONTACT .container .contact form textarea {
+    font-size: 15px;
+  }
+  /* ---------------------------footer------------------------- */
+  footer .container .up .box {
+    width: 100%;
+  }
+  footer .container .up .box .extra .images {
+    display: block;
+  }
+  footer .container .up .box .extra .images .item {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 270px;
+  }
+  footer .container .up .box .extra .images .item .photo {
+    width: 100%;
+    height: 270px;
+    margin: auto;
+  }
+  footer .container .up .box .extra {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+  /* ---------------------------home------------------------- */
+
+  #HOME .container .content h1 {
+    font-size: 40px;
+  }
+  #HOME .container .content h2 {
+    font-size: 30px;
+  }
+  /* ---------------------------SERVICES------------------------- */
+  #SERVICES .container .content {
+    width: 80%;
+  }
+  /* ---------------------------TRAINERS------------------------- */
+
+  #TRAINERS .container .content .box .card {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+  /* ---------------------------nav------------------------- */
+  nav .container a.logo {
+    font-size: 35px;
+  }
+  /* ---------------------------home------------------------- */
+  #HOME .container .content {
+    width: 95%;
+    left: 5%;
+  }
+  #HOME .container .content h1 {
+    font-size: 45px;
+  }
+  #HOME .container .content h2 {
+    font-size: 35px;
+  }
+  /* ---------------------------SERVICES------------------------- */
+  #SERVICES .container .content {
+    width: 60%;
+  }
+  #SERVICES .container .content .box .text h2 {
+    font-size: 25px;
+  }
+  #SERVICES .container .content .box .item .icon {
+    margin-bottom: 10px;
+  }
+  /* ---------------------------TRAINERS------------------------- */
+
+  #TRAINERS .container .content .box .card {
+    width: 50%;
+    margin: auto;
+  }
+  /* ---------------------------GALLERY------------------------- */
+  #GALLERY .container .content {
+    width: 70%;
+  }
+  /* ---------------------------footer------------------------- */
+
+  footer .container .up .box .extra {
+    width: 90%;
+    margin-right: 50px;
+  }
+  footer .container .up .box .extra .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .container .up .box .extra .images .item {
+    width: calc(100% / 3);
+    height: 90px;
+  }
+  footer .container .up .box .extra .images .item .photo {
+    width: 90%;
+    height: 90px;
+    margin: auto;
+  }
+  footer .container .up .box .content {
+    width: 80%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  /* ---------------------------nav------------------------- */
+  nav .container {
+    width: 95%;
+  }
+  nav .container .links {
+    width: 95%;
+  }
+  nav .container a.logo {
+    font-size: 45px;
+  }
+  /* ---------------------------about------------------------- */
+
+  #ABOUT .container .part1,
+  #ABOUT .container .part2 {
+    width: 50%;
+  }
+  /* ---------------------------SERVICES------------------------- */
+  #SERVICES .container .content {
+    width: 100%;
+  }
+  #SERVICES .container .content .box .text {
+    width: 75%;
+  }
+  #SERVICES .container .content .box .item {
+    width: 25%;
+  }
+  #SERVICES .container .content .box {
+    flex-direction: initial;
+  }
+  #SERVICES .container .content :nth-of-type(2) {
+    flex-direction: row-reverse;
+  }
+  /* ---------------------------CLIENTS------------------------- */
+  #CLIENTS .container .content :first-child {
+    margin-bottom: 00px;
+  }
+  #CLIENTS .container .content .box {
+    width: 50%;
+  }
+  /* ---------------------------TRAINERS------------------------- */
+  #TRAINERS .container .content .box {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  #TRAINERS .container .content .box .card {
+    width: 70%;
+    margin: auto;
+  }
+  /* ---------------------------GALLERY------------------------- */
+  #GALLERY .container .content {
+    display: grid;
+    width: 90%;
+  }
+  #GALLERY .container .content .box {
+    min-height: unset;
+    min-width: unset;
+  }
+  /* ---------------------------Contact Us------------------------- */
+  #CONTACT .container .content .box {
+    width: calc(100% / 3);
+  }
+  /* ---------------------------Contact Us form------------------------- */
+  #CONTACT .container .contact form {
+    width: 90%;
+  }
+  #CONTACT .container .contact form .part .field {
+    width: calc(100% / 3);
+  }
+  /* ---------------------------footer------------------------- */
+  footer .container {
+    width: 70%;
+    margin: unset;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  nav .container {
+    padding-block: 20px;
+  }
+  nav .container .icon {
+    outline: none;
+    border: none;
+    display: none;
+  }
+  nav .container .links {
+    position: unset;
+    height: auto;
+    background-color: transparent;
+    transform: translatey(10px);
+    align-items: end;
+  }
+  nav .container .links ul {
+    display: flex;
+    flex-direction: initial;
+    list-style: none;
+    justify-content: end;
+    align-items: end;
+  }
+  nav .container ul > *:not(:last-child) {
+    margin-right: 20px;
+  }
+  nav .container ul li a {
+    position: relative;
+  }
+  nav .container ul li a::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--mainColor);
+    opacity: 0;
+    transition-duration: 0.5s;
+  }
+  nav .container ul li a.active::after,
+  nav .container ul li a:hover:after {
+    opacity: 1;
+  }
+  nav .container a.logo {
+    font-size: 40px;
+    width: 30%;
+  }
+  #HOME .container .content {
+    width: 100%;
+    left: 0;
+  }
+  /* ---------------------------TRAINERS------------------------- */
+  #TRAINERS .container .content {
+    padding-bottom: 0;
+  }
+  #TRAINERS .container .content .box {
+    width: 25%;
+  }
+  #TRAINERS .container .content .box .card {
+    width: 90%;
+    margin: auto;
+  }
+  /* ---------------------------footer------------------------- */
+
+  footer .container {
+    width: 95%;
+    margin: auto;
+  }
+  footer .container .up .box {
+    width: calc(100% / 3);
+  }
+  footer .container .up .box .extra {
+    width: 100%;
+  }
+  footer .container .up .box .extra .images {
+    margin-right: 20px;
+  }
+  footer .container .up .box .extra .images .item {
+    height: 55px;
+  }
+  footer .container .up .box .extra .images .item .photo {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+}

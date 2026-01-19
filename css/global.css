@@ -1,0 +1,50 @@
+:root {
+  --mainColor: rgb(229, 85, 86);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(196, 73, 73);
+}
+::-webkit-scrollbar {
+  width: 11px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.7);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a.logo {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  letter-spacing: 1.3px;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+.btn {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 10000;
+}
+.title p{
+  text-align: center;
+  font-size: clamp(2rem ,3vw,3rem);
+  font-weight: bold;
+  letter-spacing: 1.4px;
+}
