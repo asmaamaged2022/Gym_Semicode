@@ -10,6 +10,10 @@
 ::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, 0.7);
 }
+::selection {
+  color: #000;
+  background-color: var(--mainColor);
+}
 * {
   margin: 0;
   padding: 0;
@@ -42,9 +46,9 @@ a.logo {
   right: 15px;
   z-index: 10000;
 }
-.title p{
+.title p {
   text-align: center;
-  font-size: clamp(2rem ,3vw,3rem);
+  font-size: clamp(2rem, 3vw, 3rem);
   font-weight: bold;
   letter-spacing: 1.4px;
 }
