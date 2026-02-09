@@ -193,9 +193,8 @@ nav .container ul li a:hover:after {
   width: 85%;
 }
 #CLIENTS .container .content {
-  padding-block: 40px;
   width: 90%;
-  margin: auto;
+  margin: 40px auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -275,6 +274,7 @@ nav .container ul li a:hover:after {
 }
 #TRAINERS .container .content .box .card .text {
   text-align: center;
+  padding-inline: 10px;
 }
 #TRAINERS .container .content .box .card .text h2 {
   color: var(--mainColor);
@@ -490,6 +490,8 @@ nav .container ul li a:hover:after {
   color: white;
   padding: 10px 30px;
   border-radius: 10px;
+  border: 0;
+  outline: 0;
 }
 /* ---------------------------footer------------------------- */
 footer {
@@ -604,5 +606,5 @@ footer .down .icon .col:hover a {
   color: var(--mainColor);
 }
 footer .down .icon > :first-child {
-  margin-right: 30px;
+  margin-right: 20px;
 }
